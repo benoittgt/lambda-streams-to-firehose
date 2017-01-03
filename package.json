@@ -1,26 +1,39 @@
 {
-	"name": "lambda-stream-to-firehose",
-	"description": "An AWS Lambda function that forwards data from a Kinesis or DynamoDB Update Stream to a Kinesis Firehose Delivery Stream",
-	"version": "1.4.1",
-	"dependencies": 
-	{
-		"async": "1.5.2",
-		"aws-kpl-deagg": "2.1.1"
-	},
-
-	"keywords": 
-	["amazon","aws","kinesis","firehose","lambda"],
-
-	"author": 
-	{
-		"name": "Ian Meyers",
-		"email": "meyersi@amazon.com"
-	},
-	"scripts": {
-	    "test": "mocha"
-	  },
-	"main": "index.js",
-	"license": "Apache-2.0",
-	"files": 
-	["index.js","lambda.json","tagKinesisStream.sh","package.json","README.md","LICENSE","NOTICE.txt"]
+  "name": "lambda-stream-to-firehose",
+  "description": "An AWS Lambda function that forwards data from a Kinesis or DynamoDB Update Stream to a Kinesis Firehose Delivery Stream",
+  "version": "1.4.1",
+  "dependencies": {
+    "async": "1.5.2",
+    "aws-kpl-deagg": "2.1.1"
+  },
+  "keywords": [
+    "amazon",
+    "aws",
+    "kinesis",
+    "firehose",
+    "lambda"
+  ],
+  "author": {
+    "name": "Ian Meyers",
+    "email": "meyersi@amazon.com"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "files": [
+    "index.js",
+    "lambda.json",
+    "tagKinesisStream.sh",
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "NOTICE.txt"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.10"
+  }
 }

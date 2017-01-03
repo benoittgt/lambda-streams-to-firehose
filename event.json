@@ -1,0 +1,20 @@
+{
+    "Records": [
+        {
+            "kinesis": {
+                "kinesisSchemaVersion": "1.0",
+                "partitionKey": "partitionkey",
+                "sequenceNumber": "49568010943557567485675756785675119016952564851788480514",
+                "data": "Mzk5OTk5OTk5fDIwMTctMDEtMDMgMTc6NDg6MDEuODE2ICswMTAwfDk4NzY4OXw5ODk4fGRlc2t0b3B8OTgyMzIzfGFwcDpzZGZmLnNkb2xpamMuc29pdWh3ZWYub2l1fDIzNzg5NDIzfDIuNg==",
+                "approximateArrivalTimestamp": 1483469274.647
+            },
+            "eventSource": "aws:kinesis",
+            "eventVersion": "1.0",
+            "eventID": "shardId-000000000000:49563456345634563457345674567456745016952564851788480514",
+            "eventName": "aws:kinesis:record",
+            "invokeIdentityArn": "arn:aws:iam::000000000000:role/stream_to_firehose",
+            "awsRegion": "eu-west-1",
+            "eventSourceARN": "arn:aws:kinesis:eu-west-1:000000000000:stream/LambdaStreamsDefaultDeliveryStream"
+        }
+    ]
+}
